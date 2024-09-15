@@ -7,9 +7,9 @@ Además se utilizó el FRONT 2, el cual realiza un UPDATE al campo LIKE.
 
 ```node
     export const likePost = async (id) => {
-    await fetch(`${URL_API}/like/${id}`, {
-        method: "PUT",
-    });
+        await fetch(`${URL_API}/like/${id}`, {
+            method: "PUT",
+        });
     };
 ```
 
